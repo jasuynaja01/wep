@@ -1,0 +1,173 @@
+/* styles.css */
+
+body {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #556B2F;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    color: #003300;
+    text-align: center;
+    padding: 5em 1em;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #556B2F;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+.cards {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 calc(33.333% - 1em);
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    padding: 1em;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ccc;
+}
+
+footer {
+    background-color: #556B2F;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.car1 {
+    flex: 1 1 calc(33.333% - 1em);
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 1em;
+}
+
+.hero1 {
+    color: #003300;
+    text-align: center;
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+.content1 {
+    max-width: 1200px;
+    margin: 2em auto;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 1em;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.card1 img {
+    flex-shrink: 0;
+    width: 200px; /* กำหนดขนาดของรูปภาพ */
+    height: auto;
+    margin-right: 1em; /* เพิ่มระยะห่างระหว่างรูปภาพกับข้อความ */
+}
+
+.card1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card1 div h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.card1 div p {
+    margin: 0.5em 0 0;
+    font-size: 1em;
+    color: #000000;
+}
+
+.three-images-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.three-images-container img {
+    width: 30%;
+    border-radius: 5px;
+    object-fit: cover;
+}
